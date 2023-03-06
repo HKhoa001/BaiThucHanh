@@ -4,23 +4,21 @@ import java.util.Scanner;
 
 public class Slide47 {
 
-	public static void main(String[] args) {
-		int  sum=0,number;
-		String a = "";
-		Scanner sc = new Scanner(System.in);
+    public static void main (String[] args){
+        int a; int tong = 0;
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Nhap so nguyen: " );
+        a = sc.nextInt();
+        do {
+            tong = tong + a;
+            System.out.println("Tong so vua nhap la: " +tong );
+                if(tong > 100)
+                    break;
+            System.out.println("Tong chua lon hon 100, vui long nhap tiep so nguyen: ");
+            a =sc.nextInt();
 
-		do {
-			System.out.print("nhap so: ");
-			number = sc.nextInt();
-			
-			
-			a += number + "+";
-			sum +=number;
-		}while(sum<100);
-		
-		System.out.println( "tong = " +a.substring(0,a.length()-2) + " = " +sum);
-		sc.close();
-
-	}
-
+        }
+        while(tong < 100);
+    }
 }

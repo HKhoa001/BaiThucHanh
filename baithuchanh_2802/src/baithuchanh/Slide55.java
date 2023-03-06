@@ -1,18 +1,16 @@
 package baithuchanh;
 
+import java.util.Scanner;
 
-public class Slide55 {
+public class slide55 {
+    public static void main(String[] args) {
+        System.out.println("Cac so chia het cho 5 la: ");
 
-	public static void main(String[] args) {
-
-		System.out.println("cac so chia het cho 5 :");
-		
-		for(int i=0;i<=100;i++)
-		{
-			if(i % 5 == 0) {
-				break;
-			}
-			System.out.println(i);
-		}	
-}
+        for (int i = 0; i <= 20; i++) {
+            if (i % 5 != 0) {
+                continue;
+            }
+            System.out.println(i);
+        }
+    }
 }
