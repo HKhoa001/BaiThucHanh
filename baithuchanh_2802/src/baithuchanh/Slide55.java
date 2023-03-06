@@ -2,7 +2,7 @@ package baithuchanh;
 
 import java.util.Scanner;
 
-public class slide55 {
+public class Slide55 {
     public static void main(String[] args) {
         System.out.println("Cac so chia het cho 5 la: ");
 
