@@ -3,10 +3,9 @@ package baithuchanh;
 import java.util.Scanner;
 
 public class Slide40 {
-
+    public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         int ngay;
-        Scanner sc = new Scanner(System.in);
        
         System.out.println("Nhap so ngay trong tuan (so ngay tu 1 - 7): ");
         ngay = sc.nextInt();

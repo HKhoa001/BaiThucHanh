@@ -3,8 +3,9 @@ package baithuchanh;
 import java.util.Scanner;
 
 public class Slide75 {
+    public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        
         int n, m, i, j, tong = 0;
 
         do{

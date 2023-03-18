@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 public class Bai8 {
+    public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+
         float TBC =0;
         int n,i;
         int[] arrA = new int[10];

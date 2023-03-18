@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
 public class Bai4 {
-
+    public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         int ngay;
-        Scanner sc = new Scanner(System.in);
        
         System.out.print("Nhap so thang: ");
         ngay = sc.nextInt();
