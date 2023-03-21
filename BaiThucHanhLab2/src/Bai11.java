@@ -18,13 +18,9 @@ public class Bai11 {
             System.out.print( x +" ");
         }
         System.out.println( );
-        sortASC(arrA);
-        System.out.println("Day so theo thu tu tang dan: ");
-        show(arrA);
-    }
+        System.out.println("Mang theo thu tu tang dan: ");
 
-    public static void sortASC(int [] arrA) {
-        int temp = arrA[0];
+        int temp;
         for (int i = 0 ; i < arrA.length - 1; i++) {
             for (int j = i + 1; j < arrA.length; j++) {
                 if (arrA[i] > arrA[j]) {
@@ -34,9 +30,7 @@ public class Bai11 {
                 }
             }
         }
-    }
-    
-    public static void show(int [] arrA) {
+
         for (int i = 0; i < arrA.length; i++) {
             System.out.print(arrA[i] + " ");
         }
