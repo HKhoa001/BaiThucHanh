@@ -1,28 +1,31 @@
 package HinhHoc;
-
 import java.util.Scanner;
 
-public class HinhChuNhat {
-public static Scanner sc = new Scanner(System.in);
-    float a,b,P,S;
-public void NhapCacCanh()
-{
-    System.out.println("Nhap vao chieu dai: ");
-    a = sc.nextFloat();
-    System.out.println("Nhap vao chieu rong: ");
-    b = sc.nextFloat();
-}
-public void TinhChuVi() 
-{
-    P=(a+b)*2;
-}
+public class HinhChuNhat extends HinhHoc{
+    public static Scanner sc = new Scanner(System.in);
+    float dai;
+    float rong;
 
-public void TinhDienTich() 
-{
-    S= a*b;
-}
-public void InThongTin(int hcn)
-{
-    System.out.printf("Hinh chu nhat %d chieu dai %f chieu rong %f co \nChu vi = %f \nDien tich = %f",hcn, a, b, P, S);
-}
+    public HinhChuNhat() {
+        ten = "Hinh chu nhat";
+    }
+
+    public void nhapChieuDai() {
+        System.out.println("Hay nhap vao chieu dai hinh chu nhat: ");
+        dai = sc.nextFloat();
+    }
+
+    public void nhapChieuRong() {
+        System.out.println("Hay nhap vao chieu rong hinh chu nhat: ");
+        rong = sc.nextFloat();
+    }
+
+    public void tinhChuvi() {
+        chuVi = 2 * (dai + rong);
+    }
+
+    public void tinhDienTich() {
+        dienTich = dai * rong;
+    }
+
 }

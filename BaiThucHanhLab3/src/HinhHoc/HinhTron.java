@@ -2,27 +2,28 @@ package HinhHoc;
 
 import java.util.Scanner;
 
-public class HinhTron {
+
+public class HinhTron extends HinhHoc {
     public static Scanner sc = new Scanner(System.in);
-    final float PI = 3.14f;
-    float r,P,S;
-    public void NhapBanKinh()
-    {
-        System.out.print("Nhap vao ban kinh r: ");
-        r = sc.nextFloat();
+    public float banKinh;
+
+    public HinhTron(){
+        ten = "Hinh tron";
     }
-    public void TinhChuVi() 
+
+    public void nhapBanKinh()
     {
-        P = 2*r* PI;
+        System.out.print("Nhap ban kinh r: "); 
+        banKinh = sc.nextFloat();
     }
-    public void TinhDienTich() 
+
+    public void tinhChuvi()
     {
-        S = r*r* PI ;
-    }
-    public void InThongTin(int ht)
+        chuVi = 2 * banKinh * Pi;
+    }    
+
+    public void tinhDienTich()
     {
-        System.out.printf("Hinh tron %d ban kinh %f co \nChu vi = %f \nDien tich = %f",ht, r, P, S);
+        dienTich = banKinh * banKinh * Pi;
     }
 }
-
-
