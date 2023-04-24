@@ -1,5 +1,5 @@
-
 package HinhHoc;
+
 import java.util.Scanner;
 
 public class HinhTru extends HinhTron {

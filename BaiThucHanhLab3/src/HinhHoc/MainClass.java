@@ -1,19 +1,15 @@
-import HinhHoc.HinhTron;
-import HinhHoc.HinhChuNhat;
-import HinhHoc.HinhTru;
-import HinhHoc.HinhVuong;
-
+package HinhHoc;
 import java.util.Scanner;
 
-public class Demo {
+public class MainClass {
     public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
 
-        int HH;
+        int Chon;
            
         System.out.println("Chon hinh ban muon: \n 1 Hinh Tron. \n 2 Hinh Tru. \n 3 Hinh Chu Nhat.  \n 4 Hinh Vuong.");
-        HH = sc.nextInt();
-        switch(HH){
+        Chon = sc.nextInt();
+        switch(Chon){
         case 1:
         HinhTron hinhTron = new HinhTron();
         hinhTron.xuatTen();
@@ -53,4 +49,3 @@ public class Demo {
     }
 }
 }   
-

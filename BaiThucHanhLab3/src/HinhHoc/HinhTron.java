@@ -2,7 +2,6 @@ package HinhHoc;
 
 import java.util.Scanner;
 
-
 public class HinhTron extends HinhHoc {
     public static Scanner sc = new Scanner(System.in);
     public float banKinh;
