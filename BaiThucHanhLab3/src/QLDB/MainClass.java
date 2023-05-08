@@ -9,7 +9,7 @@ public class MainClass {
         do {
             System.out.println("===Quan ly danh ba===");
             System.out.println("Chon chuc nang: ");
-            System.out.println("1. Tao moi. \n2. Cap nhat. \n3. Xoa. \n4. Tim kiem. ");
+            System.out.println("1. Tao moi. \n2. Cap nhat. \n3. Xoa. \n4. Tim kiem. \n5. In danh sach. ");
 
             String chon = sc.nextLine();
             switch (chon) {

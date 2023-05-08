@@ -5,8 +5,6 @@ import java.util.Scanner;
 
 public class HinhTron2 extends HinhHoc2 {
 
-
-    private final float Pi = 3.14f;
     private float bankinh;
 
     public float getbankinh() {

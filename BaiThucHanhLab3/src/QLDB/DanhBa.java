@@ -1,6 +1,7 @@
 package QLDB;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -97,11 +98,9 @@ public class DanhBa implements ChucNang {
 
     @Override
     public void Indanhsach(Scanner sc) {
-        System.out.println("Danh sach SDT là: ");
-        for (String x : list)
-        {
-            System.out.println(x);
-        }
+        QLDB qldb = new QLDB();
+        Collections.shuffle(list, null);
+        qldb.Inthongtin();
     }
 
 }

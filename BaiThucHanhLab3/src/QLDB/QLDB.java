@@ -31,7 +31,6 @@ public QLDB(String name, String tel) {
 public void Inthongtin() {
     System.out.println("Name"+this.name +"\tTel: " +this.tel);
 }
-
 public void Indanhsach() {
     System.out.println("Name"+this.name +"\tTel: " +this.tel);
 }
