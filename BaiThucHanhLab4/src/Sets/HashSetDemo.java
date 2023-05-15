@@ -1,12 +1,12 @@
-package Lists;
-import java.util.ArrayList;
+package Sets;
+import java.util.HashSet;
 import java.util.Scanner;
 import Student.Student;
 
-public class ArrayListDemo {
+public class HashSetDemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList<Student> std = new ArrayList<>();
+        HashSet<Student> std = new HashSet<Student>();
         Student st = new Student();
 
         do {

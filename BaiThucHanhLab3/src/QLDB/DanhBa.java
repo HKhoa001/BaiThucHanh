@@ -22,7 +22,7 @@ public class DanhBa implements ChucNang {
             QLDB contact = new QLDB(name, tel);
             list.add(contact);
 
-            System.out.print("\nNhap Y de nhap tiep, nhap N de ve menu: ");
+            System.out.print("\nBan co muon nhap tiep:\n Y of N ");
             String chon = sc.nextLine();
             if (chon.equalsIgnoreCase("N")) {
                 break;

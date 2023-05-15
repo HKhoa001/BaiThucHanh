@@ -29,12 +29,12 @@ public class MainClass {
                 System.out.println(sc);
                 break;
                 case "4":
-                System.out.println("=== Tim kirm va xuat contact===");
+                System.out.println("=== Tim kiem va xuat contact===");
                 db.Search(sc);
                 System.out.println("");
                 break;
                 case "5":
-                System.out.println("=== Tim kirm va xuat contact===");
+                System.out.println("=== Tim kiem va xuat contact===");
                 db.Indanhsach(sc);
                 System.out.println("");
                 break;

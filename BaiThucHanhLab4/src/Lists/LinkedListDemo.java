@@ -1,12 +1,12 @@
 package Lists;
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.Scanner;
 import Student.Student;
 
-public class ArrayListDemo {
+public class LinkedListDemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArrayList<Student> std = new ArrayList<>();
+        LinkedList<Student> std = new LinkedList<>();
         Student st = new Student();
 
         do {

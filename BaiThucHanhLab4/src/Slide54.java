@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 
 public class Slide54 {
+    public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         int number;
         HashSet<Integer> hashSI = new HashSet<>();
-        Scanner sc = new Scanner(System.in);
 
         hashSI.add(0);
         hashSI.add(3);

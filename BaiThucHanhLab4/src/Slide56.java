@@ -2,10 +2,10 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class Slide56 {
+    public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         String name;
         HashSet<String> hashSSt = new HashSet<>();
-        Scanner sc = new Scanner(System.in);
 
         hashSSt.add("Wilson");
         hashSSt.add("Nike");

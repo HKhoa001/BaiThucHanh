@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java .util.Scanner;
 
 public class Slide22 {
+    public static Scanner sc = new Scanner(System.in);
     public static void main(String[] args){
         ArrayList<Integer> arrList = new ArrayList<>();
-        Scanner sc = new Scanner(System.in);
         int number;
 
         System.out.print("nhap vao kich thuoc mang: ");
