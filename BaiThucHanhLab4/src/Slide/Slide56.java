@@ -1,3 +1,4 @@
+package Slide;
 import java.util.HashSet;
 import java.util.Scanner;
 
