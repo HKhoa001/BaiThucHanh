@@ -14,7 +14,8 @@ public class Slide114 {
     int n = Integer.parseInt(sc.nextLine());
 
     Sv.Nhap(Dssv, n, sc);
-    // Sv.TimLop(Dssv, sc);
+    Sv.HienThi(Dssv);
+    Sv.TimLop(Dssv, sc);
     Sv.TimSV(Dssv, sc);
     }
 }

@@ -8,8 +8,9 @@ public class SinhVien {
     public String Msv,FullName,Lop;
     
     public void Nhap(Map<String, SinhVien> Ds, int n, Scanner sc){
-        SinhVien Sv = new SinhVien();
+        
         for (int i = 0; i < n; i++) {
+            SinhVien Sv = new SinhVien();
             System.out.println("== Nhap thong tin ==");
             System.out.print("Msv: ");
             Sv.Msv = sc.nextLine();
@@ -23,6 +24,12 @@ public class SinhVien {
 
     public void Xuat() {
         System.out.println("MSV: " + Msv + "\tHoten: " + FullName + "\tLop: " + Lop);
+    }
+
+    public void HienThi(Map<String, SinhVien> Ds){
+        for(SinhVien Sinhvien:Ds.values()){ 
+                Sinhvien.Xuat();
+        }
     }
 
     public void TimLop(Map<String, SinhVien> Ds, Scanner sc){
@@ -60,4 +67,5 @@ public class SinhVien {
             System.out.println("Khong tim thay Msv trong danh sach");
         }
     }
+
 }
